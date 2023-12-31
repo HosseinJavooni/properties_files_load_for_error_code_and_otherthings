@@ -29,10 +29,10 @@ public class SampleComponentForLoadingProperties {
             propUS.load(USProperties);
 
             // get the property value and print it out
-            System.out.println(propFa.getProperty("122"));
-            System.out.println(propUS.getProperty("122"));
-            System.out.println(propFa.getProperty("db.user"));
-            System.out.println(propUS.getProperty("db.password"));
+            System.out.println(propFa.getProperty("1"));
+            System.out.println(propUS.getProperty("1"));
+            System.out.println(propFa.getProperty("4"));
+            System.out.println(propUS.getProperty("4"));
 
         } catch (IOException ex) {
             ex.printStackTrace();
